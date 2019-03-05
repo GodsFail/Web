@@ -1,0 +1,43 @@
+html,body{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+input[type="text"]{
+	border-radius: 5px;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	padding: 5px;
+	width: 100%;
+	
+}
+
+button{
+	background-color: rebeccapurple;
+	border: none;
+	border-color: white;
+	border-radius:10px;
+	cursor: pointer;
+	width: 25%;
+	margin-right: 10px;
+}
+
+.result{
+	display: flex;
+	margin: 10px 0;  
+	
+}
+
+.comtainer{
+	transition: 10s;
+}
+
+.container: hover{
+	transform: scale(2);
+}

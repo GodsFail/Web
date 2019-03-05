@@ -1,0 +1,14 @@
+html,body{
+	height: 100%;
+	margin: 0;
+}
+
+.inner{
+	background-color: darkmagenta;
+	margin: 15px;
+	width: 300px;
+	transition: width 1s ease;
+}
+.outer:hover >.inner{
+	width:100%;
+}
